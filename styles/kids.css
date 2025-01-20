@@ -13,6 +13,10 @@
   margin: 0px auto;
   align-items: center;
 }
+
+.display-grid{
+  display: grid;
+}
 .display-flex{
   display: flex;
 }
@@ -44,6 +48,16 @@
   height: 50px;
   border-radius: 12px;
   background-color: #FEA301;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600px;
+  border: none;
+}
+.btn-secondary{
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: black;
   color: white;
   font-size: 1.25rem;
   font-weight: 600px;
@@ -81,6 +95,32 @@
 .logo{
   align-items: center;
 }
+/* Banner Styles */
+.banner{
+  justify-content: space-between;
+  
+}
+.banner-content{
+  max-width: 640px;
+}
+.banner-title{
+  margin-top: 122px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.banner-description{
+  font-size: 1.25rem;
+  font-weight: 600px;
+}
+.banner-img img{
+  width: 100%;
+}
+
+
+
+
+
+
 
 
 
@@ -99,6 +139,27 @@
   .hb {
     display: block;
   }
-  
+  .banner{
+    flex-direction: column-reverse;
 
+  }
+  .banner-img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .banner-title{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 2rem;
+    
+  }
+  
+  .banner-description{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600px;
+  }
+  .btn-secondary{
+    margin: 18px 113px 2px 113px;
+  }
 }
