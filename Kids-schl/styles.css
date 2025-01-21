@@ -213,8 +213,19 @@
 }
 
 #cb1{color: rgb(135, 0, 255);}
+#cb1:hover{background-color: rgb(135, 0, 255);
+            color: white;
+            border-radius: 5px;
+  }
 #cb2{color: rgb(240, 170, 0);}
+#cb2:hover{background-color: rgb(240, 170, 0);
+  color: white;
+  border-radius: 5px;
+}
 #cb3{color: rgb(100, 200, 255);}
+#cb3:hover{background-color: rgb(100, 200, 255);
+color: white;
+border-radius: 5px;}
 
 .slides{
   margin: 80px 655px 60px 655px;
